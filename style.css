@@ -48,7 +48,6 @@ body{
     position: absolute;
     z-index: 99;
     top: 50%;
-    position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -243,8 +242,187 @@ body{
     color: rgb(116, 104, 104);
 }
 
+/* ---------- Media Queries ----------- */
 
+@media(max-width: 1800px) and (min-width: 1701px){
 
+    .sidePillar1 {
+            left: -180px;
+        }
+    .sidePillar2 {
+            right: -350px;
+    }
+    .outerCont{
+        width: 65%;
+    }
+
+}
+
+@media(max-width: 1700px) and (min-width: 1601px) {
+
+    .sidePillar1 {
+        left: -180px;
+    }
+
+    .sidePillar2 {
+        right: -350px;
+    }
+
+    .outerCont {
+        width: 70%;
+    }
+
+}
+
+@media(max-width: 1600px) and (min-width: 1501px) {
+
+    .sidePillar1 {
+        left: -180px;
+    }
+
+    .sidePillar2 {
+        right: -350px;
+    }
+
+    .outerCont {
+        width: 73%;
+    }
+
+}
+
+@media(max-width: 1500px) and (min-width: 1401px) {
+
+    .sidePillar1 {
+        left: -200px;
+    }
+
+    .sidePillar2 {
+        right: -320px;
+    }
+
+    .outerCont {
+        width: 78%;
+    }
+
+}
+
+@media(max-width: 1400px) and (min-width: 1301px) {
+
+    .sidePillar1 {
+        left: -200px;
+    }
+
+    .sidePillar2 {
+        right: -300px;
+    }
+
+    .outerCont {
+        width: 85%;
+    }
+
+}
+
+@media(max-width: 1300px) and (min-width: 1201px) {
+
+    .sidePillar1 {
+        left: -280px;
+        width: 50%;
+    }
+
+    .sidePillar2 {
+        right: -300px;
+        width: 50%;
+    }
+
+    .outerCont {
+        width: 89%;
+    }
+    .right {
+        align-items: center;
+    }
+
+}
+
+@media(max-width: 1200px) and (min-width: 801px) {
+
+    .sidePillar1 {
+        left: -280px;
+        width: 50%;
+    }
+
+    .sidePillar2 {
+        right: -300px;
+        width: 50%;
+    }
+
+    .outerCont {
+        width: 89%;
+    }
+
+    .right {
+        align-items: center;
+    }
+    .mobileOuterCont{
+        width: 65%;
+    }
+
+}
+
+@media(max-width: 550px){
+
+body{
+    /* overflow: hidden !important; */
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    /* position: fixed; */
+}
+.innerCont{
+    grid-template-columns: 1fr;
+    gap: 60px;
+}
+.outerCont{
+    width: 100%;
+    transform: none;
+    top: 60px;
+    left: 0;
+}
+.mobileOuterCont{
+    width: 75%;
+}
+.chat1{
+    width: 80%;
+}
+.chat3{
+    width: 60%;
+}
+.widthText {
+    gap: 25px;
+    width: 80%;
+}
+.right{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.widthText h1{
+    font-size: 35px;
+}
+.sidePillar1{
+    position: fixed;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: -200px;
+}
+.sidePillar2 {
+    position: fixed;
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    right: -200px;
+}
+}
 
 
 
